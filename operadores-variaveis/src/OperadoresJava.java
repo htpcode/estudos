@@ -1,5 +1,16 @@
 public class OperadoresJava {
     public static void main(String[] args) throws Exception {
+    
+        // operadores boolean
+       /* int a, b;
+        a = 5;
+        b = 6;
+
+        String resultado = a==b ?"verdadeiro" : "false" ;
+
+        System.out.println(resultado);*/
+        
+        //operadores relacionais
         /* == - igual
          * != - diferente
          * < - menor
@@ -7,14 +18,20 @@ public class OperadoresJava {
          * <= - menor igual
          * >= - maior igual
          */
-        // operaadores boolean
+        int numero1 = 1;
+        int numero2 = 2;
 
-        int a, b;
-        a = 5;
-        b = 6;
+        boolean simNao = numero1 == numero2;
 
-        String resultado = a==b ?"verdadeiro" : "false" ;
+        System.out.println("numeroUm é igual a numeroDois" + simNao);
 
-        System.out.println(resultado);
-    }
+        
+
+        
+
+
+
+
+
+}
 }
